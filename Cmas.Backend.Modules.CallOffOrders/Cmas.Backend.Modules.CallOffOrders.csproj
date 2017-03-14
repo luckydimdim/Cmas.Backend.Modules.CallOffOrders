@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Yamal</Authors>
+    <Company>Yamal</Company>
+    <Product>CMAS</Product>
+    <Description>Call-off orders module</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CommandsContexts\" />
+    <Folder Include="Criteria\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Forms\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
