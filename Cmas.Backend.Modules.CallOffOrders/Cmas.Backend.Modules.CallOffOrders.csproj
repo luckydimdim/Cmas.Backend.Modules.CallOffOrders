@@ -7,15 +7,21 @@
     <Company>Yamal</Company>
     <Product>CMAS</Product>
     <Description>Call-off orders module</Description>
+    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CommandsContexts\" />
     <Folder Include="Criteria\" />
     <Folder Include="Dtos\" />
-    <Folder Include="Entities\" />
     <Folder Include="Forms\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cmas.Backend.Infrastructure.Domain" Version="1.*" />
+    <PackageReference Include="Cmas.Backend.Infrastructure.Web" Version="1.*" />
+    <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
   </ItemGroup>
 
 </Project>
