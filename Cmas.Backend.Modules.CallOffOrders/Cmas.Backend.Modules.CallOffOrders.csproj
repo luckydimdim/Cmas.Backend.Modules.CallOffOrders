@@ -13,9 +13,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Criteria\" />
-    <Folder Include="Dtos\" />
-    <Folder Include="Forms\" />
+    <Compile Remove="Criteria\**" />
+    <Compile Remove="Dtos\**" />
+    <Compile Remove="Forms\**" />
+    <EmbeddedResource Remove="Criteria\**" />
+    <EmbeddedResource Remove="Dtos\**" />
+    <EmbeddedResource Remove="Forms\**" />
+    <None Remove="Criteria\**" />
+    <None Remove="Dtos\**" />
+    <None Remove="Forms\**" />
   </ItemGroup>
 
   <ItemGroup>

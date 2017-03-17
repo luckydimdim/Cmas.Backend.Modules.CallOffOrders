@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cmas.Backend.Modules.CallOffOrders.Entities.Rates
+namespace Cmas.Backend.Modules.CallOffOrders.Entities
 {
-    public class RateOptions
+   public class Rate
     {
+        public int Id;
+
+        public String Name;
+
+        public bool IsRate;
+
         /// <summary>
         /// Ставка
         /// </summary>
-        public double Rate;
+        public double Amount;
 
         /// <summary>
         /// Валюта
@@ -19,7 +25,6 @@ namespace Cmas.Backend.Modules.CallOffOrders.Entities.Rates
         /// <summary>
         /// Ед. изм.
         /// </summary>
-        public String RemunerationUnit;
-
+        public String UnitName;
     }
 }

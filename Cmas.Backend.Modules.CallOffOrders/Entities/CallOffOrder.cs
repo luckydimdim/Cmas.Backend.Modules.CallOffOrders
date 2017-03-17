@@ -1,4 +1,4 @@
-﻿using Cmas.Backend.Modules.CallOffOrders.Entities.Rates;
+﻿using Cmas.Backend.Modules.CallOffOrders.Entities;
 using System;
 using System.Collections.Generic;
 
@@ -43,12 +43,10 @@ namespace Cmas.Backend.Modules.CallOffOrders.Entities
         /// Ставки
         /// </summary>
         public ICollection<Rate> Rates;
-        public ICollection<RateGroup> RateGroups;
 
         public CallOffOrder()
         {
             Rates = new List<Rate>();
-            RateGroups = new List<RateGroup>();
         }
 
     }
